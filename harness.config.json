@@ -1,0 +1,16 @@
+{
+  "verify_steps": [
+    {
+      "shell": "npm run build",
+      "description": "L1: production frontend build"
+    },
+    {
+      "shell": "node scripts/qa_protocol_smoke.mjs",
+      "description": "L2: protocol/AC unit smoke (no network)"
+    },
+    {
+      "shell": "node scripts/qa_user_journey_smoke.mjs",
+      "description": "L3: capture → rumination/progress → archive → backup roundtrip"
+    }
+  ]
+}
