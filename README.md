@@ -1,5 +1,7 @@
 # 念头
 
+**中文 | [English](./README.en.md)**
+
 先判断值不值得焦虑，再把应对封死在三套。
 
 **手机打开：** [https://mikefan1433.github.io/anxiety-thoughts-collector/](https://mikefan1433.github.io/anxiety-thoughts-collector/)
